@@ -6,25 +6,21 @@
     <title>idk</title>
 </head>
 <body>
-    <h1>caw caw bitch</h1>
+  <div id="div_A">
+  <h1></h1>
+  </div>
     
-    <button id="myButton">Click me!</button>
+    <button id="myButton">see what happens</button>
 
-    <div id="myDiv">
-      <p>Original HTML content.</p>
-    </div>
     
     <script>
-      // select the button and the div
       const button = document.getElementById('myButton');
-      const div = document.getElementById('myDiv');
+      const div = document.getElementById('div_a');
     
-      // define the function to change the HTML content
       function changeContent() {
-        div.innerHTML = '<p>New HTML content!</p>';
+        div.innerHTML = '<h1>caw caw betch</h1>';
       }
     
-      // add event listener to the button
       button.addEventListener('click', changeContent);
     </script>
 </body>
